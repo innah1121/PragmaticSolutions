@@ -50,7 +50,7 @@ public class Solution1 {
        int k=0;
        for(i=0; i<= needle.length()-(threshold-1);i++){
            needle_offset=i;
-           for(j=0 ;j<=haystack.length()-threshold;j++ ){
+           for(j=0 ;j<=haystack.length()-(threshold-1);j++ ){
                haystack_offset=j;
                sekuenca.clear();
                if((chars_n[i] == chars_h[j])){
